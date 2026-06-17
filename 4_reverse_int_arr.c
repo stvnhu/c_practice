@@ -28,7 +28,6 @@ void reverse_int_arr(int arr[], int len) {
   int temp = 0;
 
   for (int i = 0; i < len / 2; i++) {
-
     temp = arr[i];
     arr[i] = arr[len - 1 - i];
     arr[len - 1 - i] = temp;
