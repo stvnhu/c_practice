@@ -28,7 +28,7 @@ char *dynamic_strcat(char str[], char str2[]) {
   int len2 = strlen(str2);
   int len3 = len + len2 + 1;
 
-  char *str3 = calloc(len, sizeof(char));
+  char *str3 = calloc(len3, sizeof(char));
 
   for (int i = 0; i < len; i++) {
     str3[i] = str[i];
